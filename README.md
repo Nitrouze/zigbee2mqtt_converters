@@ -26,7 +26,7 @@ external_converters:
 2. **Copy associated file(s) listed in the table below in the same directory of your configuration.yaml.**
 
 
-3. **Restart Zigbee2mqtt to let it use the new converters.**
+3. **Restart Zigbee2mqtt to start using the new converter(s).**
 
 
 #### Currently available converters are ...
