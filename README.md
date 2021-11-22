@@ -8,7 +8,7 @@ Stable versions from [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt") ar
 
 ### In order to use a custom converter, you need to ...
 
-1. **Add some lines to your Zigbee2mqtt configuration.yaml file ...**
+1. **Add line(s) to your Zigbee2mqtt configuration.yaml file ...**
 ```yaml
 external_converters:
  - converter1_name.js
