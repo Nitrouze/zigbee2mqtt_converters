@@ -1,5 +1,26 @@
 # zigbee2mqtt_converters
-This is a simple repository to store some converters not yet available in the stable version of Zigbee2mqtt.
+This is a simple repository to store some converters not yet available in the stable version of [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt").
+
+In order to use a custom converter, you need to ...
+
+1. **Add some lines to your Zigbee2mqtt configuration.yaml file ...**
+```yaml
+external_converters:
+ - converter1_name.js
+ - converter2_name.js
+```
+Where converter1_name.js **MUST** match the model of your device **AND** the associated file name.
+According to the table below, that would be something like this ...
+```yaml
+external_converters:
+ - HG07834A.js
+ - HG07834B.js
+```
+2. **Copy associated file(s) listed in the table below in the same directory of your configuration.yaml.**
+
+
+3. **Restart Zigbee2mqtt to let it use the new converters.**
+
 
 Currently available converters are ...
 	
