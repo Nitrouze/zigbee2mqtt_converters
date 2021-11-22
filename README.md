@@ -6,6 +6,8 @@ The main purpose of this repository is therefor to provide a simple way to use n
 
 Stable versions from [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt") are, off course, always preferable when they become available. **So use files listed here with caution and always make a backup before trying it.** 
 
+Now, that you've been warned, let's proceed ...
+
 ### In order to use a custom converter, you need to ...
 
 1. **Add some lines to your Zigbee2mqtt configuration.yaml file ...**
@@ -34,7 +36,7 @@ external_converters:
 |Lidl|Livarno Lux GU10 spot RGB|HG07834A|[HG07834A.js](Lidl/HG07834A.js "HG07834A.js")|
 |Lidl|Livarno Lux E14 candle RGB|HG07834B|[HG07834B.js](Lidl/HG07834B.js "HG07834B.js")|
 |Lidl|Livarno Lux E27 bulb RGB|HG07834C|[HG07834C.js](Lidl/HG07834C.js "HG07834C.js")|
-|   |   |   |   |
+|Lumi|LUMI TVOC Air Quality Monitor|VOCKQJK11LM|[VOCKQJK11LM.js](lumi/VOCKQJK11LM.js "VOCKQJK11LM.js")|
 |   |   |   |   |
 
 ### To remove a converter, simply remove the lines you've added in your configuration.yaml and restart Zigbee2mqtt.
