@@ -4,7 +4,7 @@ This is a simple repository to store some converters not yet available in the st
 Most (all ?) of these converters are already available in the dev branch of [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt").
 The main purpose of this repository is therefor to provide a simple way to use new converters without having to switch to the dev branch (in case of a new batch of device for exemple).
 
-Stable versions from [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt") are, off course, always preferable when they become available. **So use files listed here with caution and always make a backup before trying it.** 
+Stable versions from [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt") are, off course, always preferable when they become available. **So use files listed here with caution and always make a backup before trying them.** 
 
 Now, that you've been warned, let's proceed ...
 
