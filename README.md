@@ -6,8 +6,6 @@ The main purpose of this repository is therefor to provide a simple way to use n
 
 Stable versions from [Zigbee2mqtt](https://www.zigbee2mqtt.io/ "Zigbee2mqtt") are, off course, always preferable when they become available. **So use files listed here with caution and always make a backup before trying them.** 
 
-Now, that you've been warned, let's proceed ...
-
 ### In order to use a custom converter, you need to ...
 
 1. **Add some lines to your Zigbee2mqtt configuration.yaml file ...**
